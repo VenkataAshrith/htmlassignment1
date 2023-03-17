@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        body{
+            margin-top: 5%;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+        .parent{
+            height: 400px;
+            background-color: rgb(80, 226, 255);
+            display: flex;
+            padding: 20px;
+        }
+        .child{
+            background-color: orange;
+            height: 150px;
+            width: 150px;
+            display: inline-block;
+            margin-top: 12%;
+           margin-left: auto;
+           margin-right: auto;
+           justify-content: space-evenly;
+            
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+    </div>
+</body>
+</html>
